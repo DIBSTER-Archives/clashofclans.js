@@ -13,18 +13,6 @@ class Client {
   async getPlayer(tag) {
     return new Player(await this.http.getPlayer(tag));
   };
-
-  async getRanking(country = 'global', type = 'players') {
-    return new Ranking(await this.http.getRanking(country, type));
-  };
-
-  async getClub(tag) {
-    return new Club(await this.http.getClub(tag));
-  };
-
-  async getBrawlers() {
-    return new Brawlers(await this.http.getBrawlers());
-  };
 };
 
 module.exports = Client;
