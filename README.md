@@ -1,2 +1,2 @@
 # dib-clashofclans.js
- Yes
+ Probably a big work in progress, still have to publish it and stuff.

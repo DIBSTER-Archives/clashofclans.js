@@ -1,6 +1,6 @@
 {
   "name": "dib-clashofclans.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial API Wrapper for Clash of Clans.",
   "main": "index.js",
   "directories": {
@@ -19,16 +19,13 @@
   ],
   "author": "@DIBSTERYT",
   "contributors": [
-    {
-      "name": "DIBSTERYT",
-      "url": "https://github.com/DIBSTERYT"
-    }
+    "DIBSTERYT (https://github.com/DIBSTERYT)"
   ],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com"
   },
-  "homepage": "",
+  "homepage": "https://github.com/DIBSTERYT/dib-clashofclans.js",
   "dependencies": {
     "node-fetch": "^2.6.0"
   },
