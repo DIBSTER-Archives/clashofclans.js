@@ -1,0 +1,2 @@
+# dib-clashofclans.js
+ Yes
