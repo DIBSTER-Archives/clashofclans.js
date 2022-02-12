@@ -23,6 +23,7 @@ class Player {
       this.versusBattleWinCount                     = data.versusBattleWinCount
       this.labels                                   = data.labels
       this.troops                                   = data.troops
+      this.troopsLength                             = data.troops.length
       this.heroes                                   = data.heroes
       this.spells                                   = data.spells
     }

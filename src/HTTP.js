@@ -1,6 +1,10 @@
+//Requiring node-fetch npm package.
 const fetch = require('node-fetch');
+
+//Base URL for the  Clash of Clans API.
 const baseURL = 'https://api.clashofclans.com/v1/';
 
+//File used to handle API errors.
 const APIError = require('./APIError');
 
 class HTTP {

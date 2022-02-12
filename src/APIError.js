@@ -11,7 +11,7 @@ class APIError extends Error {
         ? JSON.parse(body).reason || body
         : body;
   
-      this.message = `Clash of Clans API Rejection\n\n${this.url}\n${body}`;
+      this.message = `Clash of Clans API Rejection:\n\nRequesting Link:${this.url}\nResponse:${body}`;
     }
   }
   
